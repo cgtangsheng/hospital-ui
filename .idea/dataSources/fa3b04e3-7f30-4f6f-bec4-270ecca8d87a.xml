@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="hospital@127.0.0.1">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="hospital">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="forum"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="mysql"/>
+    <schema id="6" parent="1" name="performance_schema"/>
+    <schema id="7" parent="1" name="sys"/>
+    <schema id="8" parent="1" name="ultrax"/>
+    <table id="9" parent="2" name="check_record"/>
+    <table id="10" parent="2" name="dm_record"/>
+    <table id="11" parent="2" name="doctor"/>
+    <table id="12" parent="2" name="record"/>
+    <table id="13" parent="2" name="user"/>
+    <table id="14" parent="2" name="user_info"/>
+    <column id="15" parent="9" name="health_id">
+      <Position>1</Position>
+      <Comment>健康管理好</Comment>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="16" parent="9" name="height">
+      <Position>2</Position>
+      <Comment>身高</Comment>
+      <DataType>smallint(8)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="17" parent="9" name="weight">
+      <Position>3</Position>
+      <Comment>体重</Comment>
+      <DataType>smallint(8)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="18" parent="9" name="waist">
+      <Position>4</Position>
+      <Comment>腰围</Comment>
+      <DataType>smallint(8)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="19" parent="9" name="hip">
+      <Position>5</Position>
+      <Comment>臀围</Comment>
+      <DataType>smallint(8)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="20" parent="9" name="diet">
+      <Position>6</Position>
+      <Comment>饮食</Comment>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="21" parent="9" name="motion">
+      <Position>7</Position>
+      <Comment>运动</Comment>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="22" parent="9" name="check_record">
+      <Position>8</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="23" parent="9" name="idx_health_id">
+      <ColNames>health_id</ColNames>
+    </index>
+    <column id="24" parent="10" name="id">
+      <Position>1</Position>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="25" parent="10" name="health_id">
+      <Position>2</Position>
+      <Comment>健康管理号</Comment>
+      <DataType>int(10) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="26" parent="10" name="is_diabetes">
+      <Position>3</Position>
+      <Comment>是否诊断为糖尿病</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="27" parent="10" name="fasting_blood_glucose">
+      <Position>4</Position>
+      <Comment>空腹血糖</Comment>
+      <DataType>float(5,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="28" parent="10" name="postprandial_blood_glucose">
+      <Position>5</Position>
+      <Comment>餐后血糖</Comment>
+      <DataType>float(5,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="29" parent="10" name="anytime_blood_glucose">
+      <Position>6</Position>
+      <Comment>任意时间血糖</Comment>
+      <DataType>float(5,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="30" parent="10" name="diabetes_type">
+      <Position>7</Position>
+      <Comment>糖尿病类型</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="31" parent="10" name="is_ketoacidosis">
+      <Position>8</Position>
+      <Comment>是否酮症酸中毒病发症</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="32" parent="10" name="ketoacidosis_frequency">
+      <Position>9</Position>
+      <Comment>酮症酸中毒病发症频率</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="33" parent="10" name="ketoacidosis_reason">
+      <Position>10</Position>
+      <Comment>酮症酸中毒病发症理由</Comment>
+      <DataType>varchar(255)|0</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="34" parent="10" name="is_hypoglycemia">
+      <Position>11</Position>
+      <Comment>是否低血糖</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="35" parent="10" name="hypoglycemia_frequency">
+      <Position>12</Position>
+      <Comment>低血糖发生频率</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="36" parent="10" name="hypoglycemia_reason">
+      <Position>13</Position>
+      <Comment>低血糖发生原因</Comment>
+      <DataType>varchar(255)|0</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="37" parent="10" name="hypoglycemia_severity">
+      <Position>14</Position>
+      <Comment>低血糖严重程度</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="38" parent="10" name="is_cerebrovascular">
+      <Position>15</Position>
+      <Comment>是否脑血管病变</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="39" parent="10" name="is_cardiovascular">
+      <Position>16</Position>
+      <Comment>是否心血管病变</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="40" parent="10" name="is_peripheral_vascular">
+      <Position>17</Position>
+      <Comment>是否外周血管病变</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="41" parent="10" name="is_nephrosis">
+      <Position>18</Position>
+      <Comment>是否肾病病变</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="42" parent="10" name="is_fundus_lesions">
+      <Position>19</Position>
+      <Comment>是否眼底病变</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="43" parent="10" name="is_peripheral_neuropathy">
+      <Position>20</Position>
+      <Comment>是否周围神经病变</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="44" parent="10" name="is_diabetic_foot">
+      <Position>21</Position>
+      <Comment>糖尿病足</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="45" parent="10" name="associated_diseases">
+      <Position>22</Position>
+      <Comment>伴发疾病</Comment>
+      <DataType>varchar(255)|0</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="46" parent="10" name="work_density">
+      <Position>23</Position>
+      <Comment>劳动强度</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="47" parent="10" name="diet">
+      <Position>24</Position>
+      <Comment>主食</Comment>
+      <DataType>float(5,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="48" parent="10" name="vegetables">
+      <Position>25</Position>
+      <Comment>蔬菜</Comment>
+      <DataType>float(5,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="49" parent="10" name="milk">
+      <Position>26</Position>
+      <Comment>牛奶</Comment>
+      <DataType>float(5,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="50" parent="10" name="egg">
+      <Position>27</Position>
+      <Comment>鸡蛋</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="51" parent="10" name="meet">
+      <Position>28</Position>
+      <Comment>肉类</Comment>
+      <DataType>float(5,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="52" parent="10" name="bean">
+      <Position>29</Position>
+      <Comment>豆类</Comment>
+      <DataType>float(5,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="53" parent="10" name="oil">
+      <Position>30</Position>
+      <Comment>油</Comment>
+      <DataType>float(5,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="54" parent="10" name="salt">
+      <Position>31</Position>
+      <Comment>盐</Comment>
+      <DataType>float(5,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="55" parent="10" name="sports_type">
+      <Position>32</Position>
+      <Comment>运动方式</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="56" parent="10" name="sports_intensity">
+      <Position>33</Position>
+      <Comment>运动强度</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="57" parent="10" name="sports_time">
+      <Position>34</Position>
+      <Comment>运动时长</Comment>
+      <DataType>smallint(8) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="58" parent="10" name="sports_frequency">
+      <Position>35</Position>
+      <Comment>运动频率</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="59" parent="10" name="is_smoke">
+      <Position>36</Position>
+      <Comment>是否吸烟</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="60" parent="10" name="smoke_num">
+      <Position>37</Position>
+      <Comment>吸烟量</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="61" parent="10" name="is_drink">
+      <Position>38</Position>
+      <Comment>是否饮酒</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="62" parent="10" name="drink_num">
+      <Position>39</Position>
+      <Comment>饮酒量</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="63" parent="10" name="high_blood_pressure">
+      <Position>40</Position>
+      <Comment>血压高压</Comment>
+      <DataType>smallint(8) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="64" parent="10" name="low_blood_pressure">
+      <Position>41</Position>
+      <Comment>血压低压</Comment>
+      <DataType>smallint(8) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="65" parent="10" name="blood_pressure_addr">
+      <Position>42</Position>
+      <Comment>血压测量地点</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="66" parent="10" name="blood_sugar_2">
+      <Position>43</Position>
+      <Comment>餐后两小时血糖</Comment>
+      <DataType>float(5,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="67" parent="10" name="hbalc">
+      <Position>44</Position>
+      <Comment>hbalc</Comment>
+      <DataType>float(5,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="68" parent="10" name="tg">
+      <Position>45</Position>
+      <Comment>tg</Comment>
+      <DataType>float(5,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="69" parent="10" name="ldl_c">
+      <Position>46</Position>
+      <Comment>ldl_c</Comment>
+      <DataType>float(5,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="70" parent="10" name="hdl_c">
+      <Position>47</Position>
+      <Comment>hdl_c</Comment>
+      <DataType>float(5,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="71" parent="10" name="create_time">
+      <Position>48</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="72" parent="10" name="idx_health_id">
+      <ColNames>health_id</ColNames>
+    </index>
+    <key id="73" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="74" parent="11" name="id">
+      <Position>1</Position>
+      <Comment>医生编号</Comment>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="75" parent="11" name="name">
+      <Position>2</Position>
+      <Comment>医生姓名</Comment>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="76" parent="11" name="hospital">
+      <Position>3</Position>
+      <Comment>所属医院</Comment>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="77" parent="11" name="level">
+      <Position>4</Position>
+      <Comment>级别</Comment>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="78" parent="11" name="tel">
+      <Position>5</Position>
+      <Comment>电话</Comment>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="79" parent="11" name="wx">
+      <Position>6</Position>
+      <Comment>微信</Comment>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="80" parent="11" name="identify">
+      <Position>7</Position>
+      <Comment>身份证号</Comment>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <key id="81" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="82" parent="12" name="id">
+      <Position>1</Position>
+      <Comment>健康管理好</Comment>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="83" parent="12" name="health_id">
+      <Position>2</Position>
+      <Comment>健康管理号</Comment>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="84" parent="12" name="examined_hospital">
+      <Position>3</Position>
+      <Comment>检查医院</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="85" parent="12" name="diagnosis">
+      <Position>4</Position>
+      <Comment>诊断</Comment>
+      <DataType>varchar(200)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="86" parent="12" name="diagnosis_hospital">
+      <Position>5</Position>
+      <Comment>确诊医院</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="87" parent="12" name="medication">
+      <Position>6</Position>
+      <Comment>用药情况</Comment>
+      <DataType>varchar(150)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="88" parent="12" name="department">
+      <Position>7</Position>
+      <Comment>就诊科室</Comment>
+      <DataType>varchar(120)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="89" parent="12" name="medication_hospital">
+      <Position>8</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;用药医院&apos;</DefaultExpression>
+    </column>
+    <column id="90" parent="12" name="creat_time">
+      <Position>9</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="91" parent="12" name="idx_id">
+      <ColNames>health_id</ColNames>
+    </index>
+    <key id="92" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="93" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="94" parent="13" name="username">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="13" name="password">
+      <Position>3</Position>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="13" name="authKey">
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="97" parent="13" name="accessToken">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="98" parent="13" name="type">
+      <Position>6</Position>
+      <Comment>角色类型,0病人,1是医生</Comment>
+      <DataType>tinyint(5)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <key id="99" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="100" parent="14" name="health_id">
+      <Position>1</Position>
+      <Comment>健康管理好</Comment>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="101" parent="14" name="name">
+      <Position>2</Position>
+      <Comment>姓名</Comment>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="102" parent="14" name="sex">
+      <Position>3</Position>
+      <Comment>性别,0为男性，1为女性</Comment>
+      <DataType>tinyint(2)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="103" parent="14" name="age">
+      <Position>4</Position>
+      <Comment>年龄</Comment>
+      <DataType>smallint(5)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="104" parent="14" name="work">
+      <Position>5</Position>
+      <Comment>职业</Comment>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="105" parent="14" name="height">
+      <Position>6</Position>
+      <Comment>身高</Comment>
+      <DataType>smallint(8)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="106" parent="14" name="weight">
+      <Position>7</Position>
+      <Comment>体重</Comment>
+      <DataType>smallint(8)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="107" parent="14" name="creat_time">
+      <Position>8</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="108" parent="14" name="identify">
+      <Position>9</Position>
+      <Comment>身份证</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="109" parent="14" name="tel">
+      <Position>10</Position>
+      <Comment>电话号码</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="110" parent="14" name="birthday">
+      <Position>11</Position>
+      <Comment>生日</Comment>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <index id="111" parent="14" name="idx_name">
+      <ColNames>name</ColNames>
+    </index>
+    <key id="112" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>health_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
