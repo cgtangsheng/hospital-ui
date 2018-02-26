@@ -75,7 +75,7 @@
                 });
                 $.ajax({
                     "url":global.apiUrl+"/user/bmi-save",
-                    "datetype":"json",
+                    "datetype":"jsonp",
                     "data":request,
                     "success":function (data) {
                         if(data["ret"] == -1){

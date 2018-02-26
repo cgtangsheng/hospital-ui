@@ -6,39 +6,43 @@
                     <mt-button icon="back"></mt-button>
                 </router-link>
             </mt-header>
-            <a class="mint-cell mint-field">
-                <div class="mint-cell-wrapper">
-                    <div class="mint-cell-title">
-                        <span class="mint-cell-text">劳动类型</span>
-                    </div>
-                    <div class="mint-cell-value">
-                        <div class="mint-field-core">
-                            <select class="selectpicker" v-model="work_type_selected">
-                                <option v-for="option in work_type_options" v-bind:value="option.value">
-                                    {{option.text}}
-                                </option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </a>
+            <div class="box-header">
+                <div class="box-title">生活方式测评</div>
+                <div class="box-tips">第{{click_pos+1}}题/共{{form.length+2}}题</div>
+            </div>
+            <div class="spliteline-single"></div>
+
+            <div v-if="click_pos==0">
+                <mt-radio :title="work_type.title" :options="work_type.options" :align="work_type.align" v-model="work_type.value"></mt-radio>
+            </div>
             <div v-for="(item,index) in form">
-                <mt-field  :label="item.label" :placeholder="item.placeholder" v-model="item.value"></mt-field>
+                <div v-if="index==click_pos-1">
+                    <mt-field  :label="item.label" :placeholder="item.placeholder" v-model="item.value"></mt-field>
+                </div>
             </div>
-            <mt-radio :title="is_smoke.title" :options="is_smoke.options" :align="is_smoke.align" v-model="is_smoke.value"></mt-radio>
-            <div v-if="is_smoke.value=='是'">
-                <mt-field  :label="smoke_info.label" :placeholder="smoke_info.placeholder" v-model="smoke_info.value"></mt-field>
+            <div v-if="click_pos==form.length+1">
+                <mt-radio :title="blood_pressure_addr.title" :options="blood_pressure_addr.options" :align="blood_pressure_addr.align" v-model="blood_pressure_addr.value"></mt-radio>
             </div>
-            <mt-radio :title="is_drink.title" :options="is_drink.options" :align="is_drink.align" v-model="is_drink.value"></mt-radio>
-            <div v-if="is_drink.value=='是'">
-                <mt-field  :label="drink_info.label" :placeholder="drink_info.placeholder" v-model="drink_info.value"></mt-field>
+            <div v-if="click_pos==form.length+2">
+                <mt-radio :title="is_smoke.title" :options="is_smoke.options" :align="is_smoke.align" v-model="is_smoke.value"></mt-radio>
+                <div v-if="is_smoke.value=='是'">
+                    <mt-field  :label="smoke_info.label" :placeholder="smoke_info.placeholder" v-model="smoke_info.value"></mt-field>
+                </div>
+            </div>
+            <div v-if="click_pos==form.length+3">
+                <mt-radio :title="is_drink.title" :options="is_drink.options" :align="is_drink.align" v-model="is_drink.value"></mt-radio>
+                <div v-if="is_drink.value=='是'">
+                    <mt-field  :label="drink_info.label" :placeholder="drink_info.placeholder" v-model="drink_info.value"></mt-field>
+                </div>
             </div>
         </div>
-        <div class="pg-submit-sure">
-            <mt-button type="primary" class="btn-submit" @click="submitDmEat">提交</mt-button>
-        </div>
-        <div class="pg-submit-cancle">
-            <mt-button type="danger" class="btn-submit">取消</mt-button>
+        <div class="btn-area">
+            <div class="pg-submit">
+                <mt-button type="default" class="btn-submit" :disabled="isStart==true" v-on:click="prexClick">{{prex.text}}</mt-button>
+            </div>
+            <div class="pg-submit">
+                <mt-button type="primary" class="btn-submit" v-on:click="nextClick">{{next.text}}</mt-button>
+            </div>
         </div>
     </div>
 </template>
@@ -136,6 +140,12 @@
                     align:"left",
                     value:""
                 },
+                blood_pressure_addr:{
+                    title:"请输入血压测量地点",
+                    options:['医院', '家'],
+                    align:"right",
+                    value:""
+                },
                 is_drink:{
                     title:"是否饮酒",
                     options:['是', '否'],
@@ -154,11 +164,63 @@
                     name:"drink_num",
                     value:""
                 },
-                work_type_selected:"1",
+                work_type:{
+                    title:"请选择劳动类型",
+                    options:['重体力劳动', '中体力劳动','轻体力劳动'],
+                    align:"right",
+                    value:""
+                },
+                click_pos:0,
+                isEnd:false,
+                isStart:true,
+                prex:{
+                    text:"上一题",
+                    func:"prexClick"
+                },
+                next:{
+                    text:"下一题",
+                    func:"nextClick"
+                },
 
             }
         },
         methods:{
+            nextClick:function(){
+                let me = this;
+                me.click_pos=me.click_pos+1;
+                console.log(me.click_pos);
+                console.log(me.form.length);
+                if(me.click_pos >me.form.length+3){
+                    me.submitDmEat();
+                }else if(me.click_pos == me.form.length+3){
+                    me.isEnd = true
+                    me.next.text ="提交"
+                }else{
+                    me.isEnd = false
+                }
+                if(me.click_pos <= 0){
+                    me.isStart = true;
+                }else{
+                    me.isStart = false;
+                }
+                console.log(me.isStart);
+            },
+            prexClick:function () {
+                let me = this;
+                console.log(me.click_pos);
+                me.click_pos=me.click_pos-1;
+                if(me.click_pos == me.form.length+3){
+                    me.isEnd = true
+                    me.next.text ="提交"
+                }else{
+                    me.isEnd = false
+                }
+                if(me.click_pos <= 0){
+                    me.isStart = true;
+                }else{
+                    me.isStart = false;
+                }
+            },
             submitDmEat:function(){
                 let me = this;
                 var token = localStorage.getItem("token");
@@ -177,25 +239,32 @@
                 request["is_drink"]=me.is_drink.value == "是"?true:false;
                 request["smoke_num"]=me.smoke_info.value;
                 request["drink_num"]=me.drink_info.value;
-                request["work_type"]=1;
-                request["blood_pressure_addr"]=1;
+                request["work_type"]=me.getWrokType();
+                request["blood_pressure_addr"]=me.getBloodPressureAddr();
                 me.$router.push({path:"/dm/eat_save",query:request});
             },
             formatForm:function () {
                 form.forEach((item) => {
 
                 })
+            },
+            getWrokType:function () {
+              if(work_type.value == "重体力劳动"){
+                  return 1;
+              }else if(work_type.value == "中体力劳动"){
+                  return 2;
+              }else if(work_type.value == "轻体力劳动"){
+                  return 3;
+              }
+            },
+            getBloodPressureAddr:function(){
+                if(blood_pressure_addr.value == "医院"){
+                    return 0;
+                }else if(blood_pressure_addr.value == "家"){
+                    return 1;
+                }
             }
         },
-        computed:{
-            work_type_options:function(){
-                return [
-                    {text:"重体力劳动",value:"1"},
-                    {text:"中体力劳动",value:"2"},
-                    {text:"轻体力劳动",value:"3"},
-                ];
-            }
-        }
     }
 </script>
 
@@ -209,6 +278,17 @@
     }
     .mint-cell-value{
         float: left;
+    }
+    .mint-radiolist label{
+        font-size: 16px;
+    }
+    .spliteline-single{
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: left;
+        width: 100%;
+        vertical-align: middle;
+        border-top: 1px solid #ddd;
     }
 
 </style>

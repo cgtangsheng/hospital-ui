@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="584b3c6e-4ae3-445d-a95d-77c8193f3992" name="Default" comment="" />
+    <list default="true" id="584b3c6e-4ae3-445d-a95d-77c8193f3992" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/css/app.167ce08ba1984683ef0fb6e1dcfe9b1e.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/css/app.167ce08ba1984683ef0fb6e1dcfe9b1e.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/app.e159c5a601733c414e01.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/app.e159c5a601733c414e01.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/manifest.96e5606292cfd83aab6b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/manifest.96e5606292cfd83aab6b.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/vendor.af0a52a25f5f25ccf0e5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/vendor.af0a52a25f5f25ccf0e5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/components/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/components/view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/create-matcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/create-route-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/history/abstract.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/history/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/history/hash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/history/html5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/install.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/util/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/util/dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/util/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/util/params.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/util/path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/util/push-state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/util/query.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/util/route.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/util/scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue-router/src/util/warn.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/History.md" afterPath="$PROJECT_DIR$/node_modules/clean-css/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/LICENSE" afterPath="$PROJECT_DIR$/node_modules/clean-css/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/README.md" afterPath="$PROJECT_DIR$/node_modules/clean-css/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/index.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/clean.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/clean.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/hack.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/hack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-0/optimize.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-0/optimize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/optimize.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/optimize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/shorten-hex.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/shorten-hex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/shorten-hsl.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/shorten-hsl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/shorten-rgb.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/shorten-rgb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/sort-selectors.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/sort-selectors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/tidy-at-rule.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/tidy-at-rule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/tidy-block.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/tidy-block.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/tidy-rules.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-1/tidy-rules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/break-up.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/break-up.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/can-override.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/can-override.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/clone.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/clone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/compactable.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/compactable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/extract-properties.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/extract-properties.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/invalid-property-error.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/invalid-property-error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/is-mergeable.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/is-mergeable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/merge-adjacent.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/merge-adjacent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/merge-media-queries.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/merge-media-queries.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/merge-non-adjacent-by-body.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/merge-non-adjacent-by-body.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/merge-non-adjacent-by-selector.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/merge-non-adjacent-by-selector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/optimize.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/optimize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/every-values-pair.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/every-values-pair.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/find-component-in.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/find-component-in.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/has-inherit.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/has-inherit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/is-component-of.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/is-component-of.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/is-mergeable-shorthand.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/is-mergeable-shorthand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/merge-into-shorthands.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/merge-into-shorthands.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/optimize.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/optimize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/override-properties.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/override-properties.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/overrides-non-component-shorthand.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/overrides-non-component-shorthand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/populate-components.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/populate-components.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/understandable.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/understandable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/vendor-prefixes.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/properties/vendor-prefixes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/reduce-non-adjacent.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/reduce-non-adjacent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/remove-duplicate-font-at-rules.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/remove-duplicate-font-at-rules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/remove-duplicate-media-queries.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/remove-duplicate-media-queries.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/remove-duplicates.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/remove-duplicates.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/remove-unused-at-rules.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/remove-unused-at-rules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/reorderable.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/reorderable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/restore-with-components.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/restore-with-components.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/restore.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/restore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/restructure.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/restructure.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/rules-overlap.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/rules-overlap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/specificities-overlap.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/specificities-overlap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/specificity.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/specificity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/tidy-rule-duplicates.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/level-2/tidy-rule-duplicates.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/remove-unused.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/remove-unused.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/restore-from-optimizing.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/restore-from-optimizing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/validator.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/validator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/wrap-for-optimizing.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/optimizer/wrap-for-optimizing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/options/compatibility.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/options/compatibility.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/options/fetch.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/options/fetch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/options/format.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/options/format.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/options/inline-request.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/options/inline-request.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/options/inline-timeout.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/options/inline-timeout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/options/inline.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/options/inline.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/options/optimization-level.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/options/optimization-level.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/options/rebase-to.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/options/rebase-to.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/options/rebase.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/options/rebase.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/options/rounding-precision.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/options/rounding-precision.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/apply-source-maps.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/apply-source-maps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/extract-import-url-and-media.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/extract-import-url-and-media.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/input-source-map-tracker.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/input-source-map-tracker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/is-allowed-resource.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/is-allowed-resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/load-original-sources.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/load-original-sources.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/load-remote-resource.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/load-remote-resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/match-data-uri.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/match-data-uri.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/normalize-path.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/normalize-path.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/read-sources.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/read-sources.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/rebase-local-map.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/rebase-local-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/rebase-remote-map.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/rebase-remote-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/rebase.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/rebase.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/restore-import.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/restore-import.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/rewrite-url.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/reader/rewrite-url.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/tokenizer/marker.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/tokenizer/marker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/tokenizer/token.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/tokenizer/token.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/tokenizer/tokenize.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/tokenizer/tokenize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/clone-array.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/clone-array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/format-position.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/format-position.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/has-protocol.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/has-protocol.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/is-data-uri-resource.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/is-data-uri-resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/is-http-resource.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/is-http-resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/is-https-resource.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/is-https-resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/is-import.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/is-import.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/is-remote-resource.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/is-remote-resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/natural-compare.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/natural-compare.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/override.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/override.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/split.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/split.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/writer/helpers.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/writer/helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/writer/one-time.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/writer/one-time.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/writer/simple.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/writer/simple.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/writer/source-maps.js" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/writer/source-maps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css/package.json" afterPath="$PROJECT_DIR$/node_modules/clean-css/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-minifier/LICENSE" afterPath="$PROJECT_DIR$/node_modules/html-minifier/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-minifier/README.md" afterPath="$PROJECT_DIR$/node_modules/html-minifier/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-minifier/cli.js" afterPath="$PROJECT_DIR$/node_modules/html-minifier/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-minifier/package.json" afterPath="$PROJECT_DIR$/node_modules/html-minifier/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-minifier/sample-cli-config-file.conf" afterPath="$PROJECT_DIR$/node_modules/html-minifier/sample-cli-config-file.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-minifier/src/htmlminifier.js" afterPath="$PROJECT_DIR$/node_modules/html-minifier/src/htmlminifier.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-minifier/src/htmlparser.js" afterPath="$PROJECT_DIR$/node_modules/html-minifier/src/htmlparser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-minifier/src/tokenchain.js" afterPath="$PROJECT_DIR$/node_modules/html-minifier/src/tokenchain.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-minifier/src/utils.js" afterPath="$PROJECT_DIR$/node_modules/html-minifier/src/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/LICENSE" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/README.md" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/default_index.ejs" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/default_index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/index.js" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/lib/chunksorter.js" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/lib/chunksorter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/lib/compiler.js" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/lib/compiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/lib/errors.js" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/lib/errors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/lib/loader.js" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/lib/loader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/package.json" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/no-case/LICENSE" afterPath="$PROJECT_DIR$/node_modules/no-case/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/no-case/README.md" afterPath="$PROJECT_DIR$/node_modules/no-case/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/no-case/no-case.d.ts" afterPath="$PROJECT_DIR$/node_modules/no-case/no-case.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/no-case/no-case.js" afterPath="$PROJECT_DIR$/node_modules/no-case/no-case.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/no-case/package.json" afterPath="$PROJECT_DIR$/node_modules/no-case/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/no-case/vendor/camel-case-regexp.js" afterPath="$PROJECT_DIR$/node_modules/no-case/vendor/camel-case-regexp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/no-case/vendor/camel-case-upper-regexp.js" afterPath="$PROJECT_DIR$/node_modules/no-case/vendor/camel-case-upper-regexp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/no-case/vendor/non-word-regexp.js" afterPath="$PROJECT_DIR$/node_modules/no-case/vendor/non-word-regexp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/toposort/.npmignore" afterPath="$PROJECT_DIR$/node_modules/toposort/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/toposort/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/toposort/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/toposort/License" afterPath="$PROJECT_DIR$/node_modules/toposort/License" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/toposort/Makefile" afterPath="$PROJECT_DIR$/node_modules/toposort/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/toposort/README.md" afterPath="$PROJECT_DIR$/node_modules/toposort/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/toposort/component.json" afterPath="$PROJECT_DIR$/node_modules/toposort/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/toposort/graph.svg" afterPath="$PROJECT_DIR$/node_modules/toposort/graph.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/toposort/index.js" afterPath="$PROJECT_DIR$/node_modules/toposort/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/toposort/package.json" afterPath="$PROJECT_DIR$/node_modules/toposort/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/toposort/test.js" afterPath="$PROJECT_DIR$/node_modules/toposort/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/LICENSE" afterPath="$PROJECT_DIR$/node_modules/uglify-js/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/README.md" afterPath="$PROJECT_DIR$/node_modules/uglify-js/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/uglify-js/bin/uglifyjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/ast.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/ast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/compress.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/compress.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/minify.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/minify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/mozilla-ast.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/mozilla-ast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/output.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/output.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/parse.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/propmangle.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/propmangle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/scope.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/scope.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/sourcemap.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/sourcemap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/transform.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/transform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/package.json" afterPath="$PROJECT_DIR$/node_modules/uglify-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/tools/domprops.json" afterPath="$PROJECT_DIR$/node_modules/uglify-js/tools/domprops.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/tools/exports.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/tools/exports.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/tools/node.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/tools/node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/tools/props.html" afterPath="$PROJECT_DIR$/node_modules/uglify-js/tools/props.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue-router/LICENSE" afterPath="$PROJECT_DIR$/node_modules/vue-router/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue-router/README.md" afterPath="$PROJECT_DIR$/node_modules/vue-router/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue-router/dist/vue-router.common.js" afterPath="$PROJECT_DIR$/node_modules/vue-router/dist/vue-router.common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue-router/dist/vue-router.esm.js" afterPath="$PROJECT_DIR$/node_modules/vue-router/dist/vue-router.esm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue-router/dist/vue-router.js" afterPath="$PROJECT_DIR$/node_modules/vue-router/dist/vue-router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue-router/dist/vue-router.min.js" afterPath="$PROJECT_DIR$/node_modules/vue-router/dist/vue-router.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue-router/package.json" afterPath="$PROJECT_DIR$/node_modules/vue-router/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue-router/types/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/vue-router/types/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue-router/types/router.d.ts" afterPath="$PROJECT_DIR$/node_modules/vue-router/types/router.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue-router/types/vue.d.ts" afterPath="$PROJECT_DIR$/node_modules/vue-router/types/vue.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/dm/check_save.vue" afterPath="$PROJECT_DIR$/src/views/dm/check_save.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/dm/eat.vue" afterPath="$PROJECT_DIR$/src/views/dm/eat.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/dm/eat_save.vue" afterPath="$PROJECT_DIR$/src/views/dm/eat_save.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/dm/index.vue" afterPath="$PROJECT_DIR$/src/views/dm/index.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/index.vue" afterPath="$PROJECT_DIR$/src/views/index.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/user/base.vue" afterPath="$PROJECT_DIR$/src/views/user/base.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/user/bmi.vue" afterPath="$PROJECT_DIR$/src/views/user/bmi.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/user/bmi_save.vue" afterPath="$PROJECT_DIR$/src/views/user/bmi_save.vue" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,48 +229,18 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/dm/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cookie.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/cookie.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="162">
+              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dist/index.ejs">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -75,71 +253,75 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>item_data_1</find>
-      <find>router</find>
-      <find>d</find>
-      <find>de</find>
-      <find>登录</find>
-      <find>accute_form</find>
-      <find>items</find>
-      <find>accute_complications</find>
-      <find>isketoacidosis</find>
-      <find>computed</find>
-      <find>referTime</find>
-      <find>hypoglycemia_severity</find>
-      <find>hypoglycemia_severity_options</find>
-      <find>select</find>
-      <find>发生原因</find>
-      <find>hypoglycemia_frequency</find>
-      <find>hypoglycemia</find>
-      <find>hypoglycemia_reason</find>
-      <find>ｓｌｉｄ</find>
-      <find>ｓｌｉ</find>
-      <find>ｓｌ</find>
-      <find>ｓ</find>
-      <find>s</find>
-      <find>slid</find>
-      <find>sli</find>
-      <find>mint-cell-title</find>
-      <find>formatForm</find>
-      <find>submitDmRisk</find>
-      <find>getData</find>
       <find>cmsStoreStatisticInfo</find>
+      <find>pg-body</find>
+      <find>item_data_d1</find>
+      <find>fo</find>
+      <find>font-fam</find>
+      <find>font-fami</find>
+      <find>article-item</find>
+      <find>row-right-bottom-item</find>
+      <find>row_right_bottom_item</find>
+      <find>right</find>
+      <find>row-left-item</find>
+      <find>row-right-top-item</find>
+      <find>item-center</find>
+      <find>pg-submit-cancle</find>
+      <find>pg-submit</find>
+      <find>box-tips</find>
+      <find>json</find>
+      <find>jsonp</find>
+      <find>d</find>
+      <find>disabl</find>
+      <find>disabler</find>
+      <find>disable</find>
+      <find>disabled</find>
+      <find>btn-area</find>
+      <find>getData</find>
+      <find>webpackConfig</find>
+      <find>work_type</find>
+      <find>spliteline-single</find>
+      <find>blood_pressure_addr</find>
+      <find>spliteline-large</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/src</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/config/index.js" />
         <option value="$PROJECT_DIR$/sql/base.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fa3b04e3-7f30-4f6f-bec4-270ecca8d87a/console.sql" />
         <option value="$PROJECT_DIR$/src/views/user/index.vue" />
-        <option value="$PROJECT_DIR$/src/views/index.vue" />
         <option value="$PROJECT_DIR$/src/views/login.vue" />
         <option value="$PROJECT_DIR$/sql/user_eat.sql" />
-        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/views/dm/base_save.vue.php" />
         <option value="$PROJECT_DIR$/src/views/dm/base.vue" />
         <option value="$PROJECT_DIR$/src/views/dm/risk.vue" />
-        <option value="$PROJECT_DIR$/src/views/dm/index.vue" />
         <option value="$PROJECT_DIR$/src/nav-config.js" />
         <option value="$PROJECT_DIR$/src/views/dm/check.vue" />
-        <option value="$PROJECT_DIR$/src/views/dm/eat.vue" />
         <option value="$PROJECT_DIR$/src/views/dm/history.vue" />
         <option value="$PROJECT_DIR$/src/views/dm/other.vue" />
-        <option value="$PROJECT_DIR$/src/views/user/bmi.vue" />
-        <option value="$PROJECT_DIR$/src/views/user/bmi_save.vue" />
         <option value="$PROJECT_DIR$/src/views/user/login.vue" />
         <option value="$PROJECT_DIR$/src/views/user/register.vue" />
-        <option value="$PROJECT_DIR$/src/views/user/base.vue" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/views/user/bmi_save.vue" />
+        <option value="$PROJECT_DIR$/src/constant.js" />
         <option value="$PROJECT_DIR$/src/views/dm/eat_save.vue" />
         <option value="$PROJECT_DIR$/src/views/dm/check_save.vue" />
-        <option value="$PROJECT_DIR$/src/constant.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/views/dm/index.vue" />
+        <option value="$PROJECT_DIR$/src/views/index.vue" />
+        <option value="$PROJECT_DIR$/src/views/user/bmi.vue" />
+        <option value="$PROJECT_DIR$/src/views/user/base.vue" />
+        <option value="$PROJECT_DIR$/src/views/dm/eat.vue" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/config/index.js" />
       </list>
     </option>
   </component>
@@ -156,10 +338,13 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1301" />
-    <option name="height" value="772" />
+    <option name="x" value="64" />
+    <option name="y" value="-11" />
+    <option name="width" value="1303" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -198,7 +383,101 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital-ui" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital-ui" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dm" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital-ui" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital-ui" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital-ui" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -216,10 +495,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital-ui" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,23 +634,26 @@
       <workItem from="1519207827918" duration="7389000" />
       <workItem from="1519291260253" duration="14918000" />
       <workItem from="1519314095177" duration="9069000" />
+      <workItem from="1519401164532" duration="5289000" />
+      <workItem from="1519487444397" duration="1708000" />
+      <workItem from="1519519910526" duration="9807000" />
+      <workItem from="1519630552540" duration="1569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126826000" />
+    <option name="totallyTimeSpent" value="167226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4142967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3164933" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31547618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -384,7 +680,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/views/user/base.vue</url>
-          <line>33</line>
+          <line>42</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -392,69 +688,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fa3b04e3-7f30-4f6f-bec4-270ecca8d87a/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sider.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RtxCard.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-427">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Layout.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/TimeLineData.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="154" column="32" lean-forward="true" selection-start-line="154" selection-start-column="32" selection-end-line="154" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Search.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1849">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/realTime/realTimeActive.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-427">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/artRecallDiagnose.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3078">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/badCaseTrace.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/badCaseTrace.vue" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -477,13 +711,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/overallStoreData.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="120" column="15" lean-forward="false" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/overallStoreData.vue" />
     <entry file="file://$PROJECT_DIR$/src/views/user/index.vue" />
     <entry file="file://$PROJECT_DIR$/src/views/dm/base_save.vue.php" />
     <entry file="file://$PROJECT_DIR$/src/views/dm/base.vue" />
@@ -492,63 +720,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="52" column="1662" lean-forward="false" selection-start-line="52" selection-start-column="1662" selection-end-line="52" selection-end-column="1662" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/articleFlowSearch.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="473" column="48" lean-forward="false" selection-start-line="473" selection-start-column="27" selection-end-line="473" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/userPhoto.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/realTime/whiteList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/userData.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2394">
-          <caret line="314" column="8" lean-forward="false" selection-start-line="314" selection-start-column="8" selection-end-line="314" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/articleFlowSearch.vue" />
+    <entry file="file://$PROJECT_DIR$/src/views/userPhoto.vue" />
+    <entry file="file://$PROJECT_DIR$/src/views/realTime/whiteList.vue" />
+    <entry file="file://$PROJECT_DIR$/src/views/userData.vue" />
     <entry file="file://$PROJECT_DIR$/src/auth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-130">
           <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="50" column="17" lean-forward="false" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,15 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-918">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nav-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-328">
-          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,85 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/dm/eat.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="168" column="17" lean-forward="false" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/dm/check.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="86" column="17" lean-forward="false" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/dm/eat_save.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="76" column="40" lean-forward="false" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/dm/history.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="210" column="17" lean-forward="false" selection-start-line="210" selection-start-column="17" selection-end-line="210" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/dm/other.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/dm/risk.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="e#658#681#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/user/base.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="101" column="40" lean-forward="false" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
-          <folding>
-            <element signature="e#1309#1332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/user/bmi.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1008">
-          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/user/bmi_save.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="59" column="30" lean-forward="false" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
-          <folding>
-            <element signature="e#1198#1221#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,49 +759,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="58" column="38" lean-forward="false" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/dm/check_save.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="101" column="40" lean-forward="false" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
-          <folding>
-            <element signature="e#1726#1749#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constant.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1512">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/tinymce/tinymce.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="18">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -717,23 +774,198 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/dm/risk.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/user/bmi_save.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="77" column="37" lean-forward="false" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/dm/check_save.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="102" column="37" lean-forward="false" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/marketDataChart.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="95" column="10" lean-forward="false" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/tinymce/tinymce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/tinymce/tinymce.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nav-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/prod.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-325">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/dm/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="-918">
+          <caret line="70" column="27" lean-forward="false" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/dm/eat_save.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="77" column="37" lean-forward="false" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/user/base.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/dm/eat.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="262" column="44" lean-forward="false" selection-start-line="262" selection-start-column="44" selection-end-line="262" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/dm/check.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="86" column="17" lean-forward="false" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/dm/other.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/dm/history.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2826">
+          <caret line="210" column="17" lean-forward="false" selection-start-line="210" selection-start-column="17" selection-end-line="210" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/user/bmi.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="12" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        <state relative-caret-position="-108">
+          <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/js/app.72b4a3797c717c40ee64.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/cookie.js">
+    <entry file="file://$PROJECT_DIR$/dist/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -743,16 +975,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding />
         </state>
       </provider>

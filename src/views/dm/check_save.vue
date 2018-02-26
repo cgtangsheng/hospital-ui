@@ -100,7 +100,7 @@
                 });
                 $.ajax({
                     "url":global.apiUrl+"/dm/check",
-                    "datetype":"json",
+                    "datetype":"jsonp",
                     "data":request,
                     "success":function (data) {
                         me.info = data["info"];

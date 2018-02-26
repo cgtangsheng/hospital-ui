@@ -6,10 +6,17 @@
                     <mt-button icon="back"></mt-button>
                 </router-link>
             </mt-header>
-            <div v-for="(item,index) in form">
-                <mt-field :label="item.label" :placeholder="item.placeholder"  :type="item.type" v-model="item.value"></mt-field>
+            <div class="box-header">
+                <div class="box-title">基本信息录入</div>
+                <div class="box-tips">第{{click_pos+1}}题/共{{form.length}}题</div>
             </div>
-            <div class="mint-cell-wrapper">
+            <div class="spliteline-single"></div>
+            <div v-for="(item,index) in form">
+                <div v-if="index==click_pos">
+                    <mt-field :label="item.label" :placeholder="item.placeholder"  :type="item.type" v-model="item.value"></mt-field>
+                </div>
+            </div>
+            <div class="mint-cell-wrapper" v-if="click_pos==form.length">
                 <div class="mint-cell-title-self">
                   <span class="mint-cell-text">性别</span>
                 </div>
@@ -20,11 +27,13 @@
                 </div>
             </div>
         </div>
-        <div class="pg-submit-sure">
-            <mt-button type="primary" class="btn-submit" v-on:click="submitUserBase">提交</mt-button>
-        </div>
-        <div class="pg-submit-cancle">
-            <mt-button type="danger" class="btn-submit">取消</mt-button>
+        <div class="btn-area">
+            <div class="pg-submit">
+                <mt-button type="default" class="btn-submit" :disabled="isStart==true" v-on:click="prexClick">{{prex.text}}</mt-button>
+            </div>
+            <div class="pg-submit">
+                <mt-button type="primary" class="btn-submit" v-on:click="nextClick">{{next.text}}</mt-button>
+            </div>
         </div>
     </div>
 
@@ -78,9 +87,55 @@
                     }
                 ],
                 sexValue:0,
+                click_pos:0,
+                isEnd:false,
+                isStart:true,
+                prex:{
+                    text:"上一题",
+                    func:"prexClick"
+                },
+                next:{
+                    text:"下一题",
+                    func:"nextClick"
+                },
             }
         },
         methods:{
+            nextClick:function(){
+                let me = this;
+                me.click_pos=me.click_pos+1;
+                console.log(me.click_pos);
+                if(me.click_pos >me.form.length){
+                    me.submitUserBase();
+                }else if(me.click_pos == me.form.length){
+                    me.isEnd = true
+                    me.next.text ="提交"
+                }else{
+                    me.isEnd = false
+                }
+                if(me.click_pos <= 0){
+                    me.isStart = true;
+                }else{
+                    me.isStart = false;
+                }
+                console.log(me.isStart);
+            },
+            prexClick:function () {
+                let me = this;
+                console.log(me.click_pos);
+                me.click_pos=me.click_pos-1;
+                if(me.click_pos == me.form.length){
+                    me.isEnd = true
+                    me.next.text ="提交"
+                }else{
+                    me.isEnd = false
+                }
+                if(me.click_pos <= 0){
+                    me.isStart = true;
+                }else{
+                    me.isStart = false;
+                }
+            },
             submitUserBase:function () {
                 let me = this
                 var token = localStorage.getItem("token");

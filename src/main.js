@@ -23,6 +23,7 @@ import { Toast } from 'mint-ui';
 import { Radio } from 'mint-ui';
 import { Switch } from 'mint-ui';
 import { PaletteButton } from 'mint-ui';
+import { Swipe, SwipeItem } from 'mint-ui';
 
 
 Vue.use(MintUI)
@@ -40,6 +41,9 @@ Vue.component(PaletteButton.name, PaletteButton);
 Vue.use(ElementUI);
 Vue.use(VueRouter);
 Vue.use(TreeView);
+Vue.component(Swipe.name, Swipe);
+Vue.component(SwipeItem.name, SwipeItem);
+
 
 
 const router = new VueRouter({

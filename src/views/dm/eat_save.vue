@@ -75,7 +75,7 @@
                 });
                 $.ajax({
                     "url":global.apiUrl+"/user/eat-save",
-                    "datetype":"json",
+                    "datetype":"jsonp",
                     "data":request,
                     "success":function (data) {
                         me.info = data["info"];

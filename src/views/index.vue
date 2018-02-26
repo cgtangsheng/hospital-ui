@@ -1,26 +1,48 @@
 <template>
     <div>
      <!--<mt-header title="锦医卫－医心为你"></mt-header>-->
+        <mt-header title="锦医卫－医心为你">
+            <router-link to="/" slot="left">
+                <!--<mt-button icon="back">back</mt-button>-->
+            </router-link>
+            <mt-button icon="more" slot="right"></mt-button>
+        </mt-header>
+
         <div class="pg-center">
-            <div class="avatar"></div>
+            <mt-swipe :auto="4000">
+                <mt-swipe-item v-for="item in bannerlist">
+                    <img :src="item.src" weight="100%" width="100%">
+                </mt-swipe-item>
+            </mt-swipe>
         </div>
-           <div class="pg-body">
-        
-    </div>
-    <div class="line-1">
-        <div class="item" id="item_data_d1">
-            <a v-bind:href="item_data_1_url"><span><img class="item-img" :src="item_data_1" id="item_data_1"></span>
-            <div class="t"><span>{{item_title_1}}</span></div></a>
+
+        <div class="pg-list">
+            <div class="line-1">
+                <div class="item" v-for="item in index_list">
+                    <a v-bind:href="item.url"><span><img class="item-img" :src="item.img" ></span>
+                        <div class="t"><span>{{item.title}}</span></div></a>
+                </div>
+            </div>
         </div>
-       <div class="item" id="item_data_d2">
-            <a v-bind:href="item_data_2_url"><span><img class="item-img" :src="item_data_2" id="item_data_2"></span>
-            <div class="t"><span>{{item_title_2}}</span></div></a>
+        <div class="spliteline-large">
         </div>
-        <div class="item">
-            
+        <div class="content-box">
+            <div class="pg-article">
+                <div class="article-item" v-for="item in articles">
+                    <div class="img-left">
+                        <div class="img"> <img :src="item.img" width="100%" height="100%"></div>
+                    </div>
+                    <div class="content-right">
+                        <div class="img-title">
+                            <div class="title">{{item.title}}</div>
+                        </div>
+                        <div class="img-abstract">
+                            <div class="abstract">{{item.abstract}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="line-2"></div>
     </div>
 
 </template>
@@ -30,13 +52,54 @@
         data(){
             var me = this;
             return {
-                title:"",
-                item_data_1:"/static/images/client/check.png",
-                item_title_1:"糖尿病自检",
-                item_data_1_url:"/#/dm/index",
-                item_data_2:"/static/images/client/check.png",
-                item_title_2:"高血压自检",
-                item_data_2_url:"/#/dm/index"
+                bannerlist:[
+                    {
+                        src:"http://zldzbl.cn/images/veer-140663813.jpg"
+                    }, {
+                        src:"http://zldzbl.cn/images/veer-141866457.jpg"
+                    },
+                ],
+                index_list:[
+                    {
+                        img:"http://zldzbl.cn/images/dietabets.png",
+                        title:"糖尿病自检",
+                        url:"/#/dm/index"
+                    }, {
+                        img:"http://zldzbl.cn/images/pulse.png",
+                        title:"高血压自检",
+                        url:"/#/dm/index"
+                    },{
+                        img:"http://zldzbl.cn/images/upload.png",
+                        title:"化验单上传",
+                        url:"/#/dm/index"
+                    },{
+                        img:"http://zldzbl.cn/images/knowlege.png",
+                        title:"知识宝典",
+                        url:"/#/dm/index"
+                    },
+                ],
+                articles:[
+                    {
+                        img:"http://zldzbl.cn/images/veer-140663813.jpg",
+                        title:"糖尿病如何选择降糖药",
+                        abstract:"据《新英格兰杂志》刊登的\"中国人群中的糖...",
+                        read:100,
+                        url:"",
+                    },
+                    {
+                        img:"http://zldzbl.cn/images/veer-141866457.jpg",
+                        title:"糖尿病如何选健康饮食",
+                        abstract:"据《新英格兰杂志》刊登的\"中国人群中的...",
+                        read:100,
+                        "url":"",
+                    },{
+                        img:"http://zldzbl.cn/images/veer-141866457.jpg",
+                        title:"糖尿病如何选健康饮食",
+                        abstract:"据《新英格兰杂志》刊登的\"中国人群中的...",
+                        read:100,
+                        "url":"",
+                    }
+                ]
             }
         }
     }
@@ -46,18 +109,17 @@
     .pg-title{
         font-size: 30px;
     }
+    a{
+        text-decoration : none
+    }
     
     .pg-center{
         height: 30vh;
-        background-color: #00a0e9;
-
-     /*   position:absolute;
-        top:10px;
-        right: 10px;*/
     }
     .mint-header{
         line-height: 5!important;
         font-size: larger;
+        background-color: #00cc99;
     }
     .line-1 {
         overflow: hidden;
@@ -65,9 +127,8 @@
     }
     .item {
         float: left;
-        width: 33.333333%;
+        width: 25%;
         display: block;
-        border: 1px solid #efefef;
         text-align: center;
         height: 25%;
     }
@@ -80,5 +141,43 @@
         color: #333;
         font-size:xx-small;
 
+    }
+    .spliteline-large{
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-top: 5px solid #ddd;
+        text-align: left;
+        width: 100%;
+        vertical-align: middle;
+    }
+    .article-item{
+        overflow: hidden;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .img-left{
+        display: block;
+        width: 20%;
+        height: 20%;
+        float: left;
+    }
+    .content-right{
+        padding-left: 10px;
+        display: block;
+        float: left;
+        width: 70%;
+    }
+    .abstract{
+        color: #7f7f7f;
+        font-size: x-small;
+    }
+    .title{
+        font-family: Helvetica;
+        font-size: small;
+    }
+    .pg-article{
+        padding-top: 20px;
     }
 </style>
