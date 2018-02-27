@@ -65,7 +65,7 @@
                 let me=this;
                 var token = localStorage.getItem("token");
                 var healthid = localStorage.getItem("health_id")
-                if(token=="undefine" || healthid=="undefine"){
+                if(!token || !healthid){
                     window.location.href = "/user/login"
                     return
                 }

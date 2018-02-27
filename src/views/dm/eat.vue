@@ -8,7 +8,7 @@
             </mt-header>
             <div class="box-header">
                 <div class="box-title">生活方式测评</div>
-                <div class="box-tips">第{{click_pos+1}}题/共{{form.length+2}}题</div>
+                <div class="box-tips">第{{click_pos+1}}题/共{{form.length+4}}题</div>
             </div>
             <div class="spliteline-single"></div>
 
@@ -249,18 +249,20 @@
                 })
             },
             getWrokType:function () {
-              if(work_type.value == "重体力劳动"){
+                let me = this;
+              if(me.work_type.value == "重体力劳动"){
                   return 1;
-              }else if(work_type.value == "中体力劳动"){
+              }else if(me.work_type.value == "中体力劳动"){
                   return 2;
-              }else if(work_type.value == "轻体力劳动"){
+              }else if(me.work_type.value == "轻体力劳动"){
                   return 3;
               }
             },
             getBloodPressureAddr:function(){
-                if(blood_pressure_addr.value == "医院"){
+                let me = this;
+                if(me.blood_pressure_addr.value == "医院"){
                     return 0;
-                }else if(blood_pressure_addr.value == "家"){
+                }else if(me.blood_pressure_addr.value == "家"){
                     return 1;
                 }
             }

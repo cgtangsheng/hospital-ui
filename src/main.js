@@ -9,6 +9,7 @@ import App from './App'
 
 import routes from './router-config'
 import common from './common/js/common'
+import Layout from './components/Layout'
 import $ from 'zeptojs'
 import './constant.js'
 import MintUI from 'mint-ui'
@@ -43,6 +44,7 @@ Vue.use(VueRouter);
 Vue.use(TreeView);
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
+Vue.component(Layout.name, Layout)
 
 
 

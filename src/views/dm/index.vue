@@ -154,7 +154,7 @@
 	}
 	.item-center{
 		background-color: #dea726 ;
-		height: 90px;
+		height: 120px;
 		border-radius:5px;
 		overflow: hidden;
 		width: 100%;

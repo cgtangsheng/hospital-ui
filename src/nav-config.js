@@ -83,6 +83,16 @@ const nav = [
                 path: '/user/bmi_save',
                 icon: '',
                 text: '公告配置'
+            },{
+                name: 'user/center',
+                path: '/user/center',
+                icon: '',
+                text: '公告配置'
+            },{
+                name: 'user/info',
+                path: '/user/info',
+                icon: '',
+                text: '公告配置'
             }
         ]
     },

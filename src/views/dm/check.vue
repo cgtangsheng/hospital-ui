@@ -93,27 +93,10 @@
                 request["health_id"]=healthid;
                 request["is_diabetes"] = (me.is_dm.value == "是")?1:0;
                 me.$router.push({path:"/dm/history",query:request});
-//                $.ajax({
-//                    "url":"http://127.0.0.1:8002/dm/dm-check",
-//                    "datetype":"json",
-//                    "data":request,
-//                    "success":function (data) {
-//                        Toast({
-//                            message: '提交成功',
-//                            iconClass: 'icon icon-success'
-//                        });
-//                    },
-//                    "error":function (data) {
-//                        Toast({
-//                            message: '提交失败',
-//                            iconClass: 'icon icon-success'
-//                        });
-//                    }
-//                });
             },
             submitDmRisk:function () {
                 let me=this
-                me.$router.push({path:"/dm/risk"});
+                me.$router.push({path:"/dm/index"});
             }
         }
     }

@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="box-form">
-			<mt-header title="锦医卫－医心为你">
+			<mt-header title="注册锦医卫帐号">
 				<router-link to="/dm/index" slot="left">
 					<mt-button icon="back"></mt-button>
 				</router-link>
@@ -51,13 +51,20 @@
         methods: {
             submitUserRegister:function () {
                 let me = this
+				if(me.form[1].value != me.form[2].value){
+                    Toast({
+                            message: '两次输入的密码不一致',
+                            iconClass: 'icon icon-success'
+                        });
+                    return false;
+				}
                 var request ={};
                 for(var i=0;i<me.form.length;i++){
                     request[me.form[i].name]=me.form[i].value;
                 }
                 $.ajax({
                     url:global.apiUrl+"/user/register",
-                    datetype:"json",
+                    datetype:"jsonp",
                     data:request,
                     success:function (data) {
                         if(data["status"] == "1"){

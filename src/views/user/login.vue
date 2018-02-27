@@ -13,6 +13,9 @@
         <div class="pg-submit-sure">
             <mt-button type="primary"  class="btn-submit" v-on:click="submitUserLogin">提交</mt-button>
         </div>
+        <div class="pg-submit-sure">
+            <mt-button type="primary"  class="btn-submit" v-on:click="submitUserRegister">注册新帐号</mt-button>
+        </div>
         <!--<div v-if="form[1].value != form[1].value">-->
         <!--<p style="color:red;">两次输入密码不一致</p>-->
         <!--</div>-->
@@ -45,6 +48,10 @@
             }
         },
         methods:{
+            submitUserRegister:function () {
+                window.location.href = "/#/user/register"
+                return
+            },
             submitUserLogin:function(){
                 let me= this
                 var request ={};
@@ -53,7 +60,7 @@
                 }
                 $.ajax({
                     url:global.apiUrl+"/user/login",
-                    datetype:"json",
+                    datetype:"jsonp",
                     data:request,
                     success:function (data) {
                         if(data["ret"] == "0"){
