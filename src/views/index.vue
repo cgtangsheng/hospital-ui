@@ -27,8 +27,12 @@
         <div class="spliteline-large">
         </div>
         <div class="content-box">
+            <div class = "line-2">
+                <a v-bind:href="more_url">
+                    <div class="more"><span>{{more_title}}</span></div></a>
+            </div>
             <div class="pg-article">
-                <div class="article-item" v-for="item in articles">
+                <li class="article-item" v-for="item in articles" v-on:click="articleDetail(item)">
                     <div class="img-left">
                         <div class="img"> <img :src="item.img" width="100%" height="100%"></div>
                     </div>
@@ -40,13 +44,15 @@
                             <div class="abstract">{{item.abstract}}</div>
                         </div>
                     </div>
-                </div>
+                </li>
             </div>
         </div>
     </div>
 
 </template>
 <script>
+    import $ from "zeptojs"
+    import { Toast } from 'mint-ui';
     export default {
         name: 'index',
         data(){
@@ -62,20 +68,16 @@
                 index_list:[
                     {
                         img:"http://zldzbl.cn/images/dietabets.png",
-                        title:"糖尿病自检",
-                        url:"/#/dm/index"
-                    }, {
-                        img:"http://zldzbl.cn/images/pulse.png",
-                        title:"高血压自检",
-                        url:"/#/dm/index"
+                        title:"疾病风险评估",
+                        url:"/dm/tablist"
                     },{
                         img:"http://zldzbl.cn/images/upload.png",
                         title:"化验单上传",
-                        url:"/#/dm/index"
+                        url:"/dm/index"
                     },{
                         img:"http://zldzbl.cn/images/knowlege.png",
-                        title:"知识宝典",
-                        url:"/#/dm/index"
+                        title:"我的病历",
+                        url:"/dm/index"
                     },
                 ],
                 articles:[
@@ -85,22 +87,92 @@
                         abstract:"据《新英格兰杂志》刊登的\"中国人群中的糖...",
                         read:100,
                         url:"",
+                        id:"",
                     },
                     {
                         img:"http://zldzbl.cn/images/veer-141866457.jpg",
                         title:"糖尿病如何选健康饮食",
                         abstract:"据《新英格兰杂志》刊登的\"中国人群中的...",
                         read:100,
-                        "url":"",
+                        url:"",
+                        id:"",
                     },{
                         img:"http://zldzbl.cn/images/veer-141866457.jpg",
                         title:"糖尿病如何选健康饮食",
                         abstract:"据《新英格兰杂志》刊登的\"中国人群中的...",
                         read:100,
-                        "url":"",
+                        url:"",
+                        id:"",
                     }
-                ]
+                ],
+                more_title:"查看更多->",
+                more_url: "/article/list",
             }
+        },
+        methods:{
+            getArtilceList:function () {
+                let me=this;
+                var token = localStorage.getItem("token");
+                var healthid = localStorage.getItem("health_id")
+//                if(!token || !healthid){
+//                    window.location.href = "/user/login"
+//                    return
+//                }
+                var request = new Map();
+                $.each(this.$route.query, function(key, val) {
+                    request[key]=val;
+                });
+                $.ajax({
+                    "url":global.apiUrl+"/article/get-article-list",
+                    "datetype":"jsonp",
+                    "data":request,
+                    "success":function (data) {
+                        me.articles = data["info"];
+//                        me.advice_text = data["advice_text"];
+                    },
+                    "error":function (data) {
+                        Toast({
+                            message: '提交失败',
+                            iconClass: 'icon icon-success'
+                        });
+                    }
+                });
+            },
+            articleDetail:function (item) {
+                var id = item.id
+                window.location.href = "/article/index?id="+id
+                return
+            },
+
+            checkLogin:function(){
+                var request = this.$route.query;
+                var token = localStorage.getItem("token");
+                if(token == "undefined" || !token){
+                    $.ajax({
+                        url:global.apiUrl+"/wechat/auth",
+                        datatype:'jsonp',  // 处理Ajax跨域问题
+                        data:request,
+                        success:function (res) {
+                            var token = res["token"];
+                            var health_id = res["health_id"]
+                            localStorage.setItem("token",token)
+                            localStorage.setItem("health_id",health_id)
+                        },
+                        error:function (res) {
+                            console.log(res)
+                            Toast({
+                                message: '提交失败',
+                                iconClass: 'icon icon-success'
+                            });
+                        }
+                    });
+                }
+            }
+        },
+        mounted:function () {
+            let me=this;
+            me.checkLogin();
+            me.getArtilceList();
         }
     }
 </script>
@@ -127,10 +199,10 @@
     }
     .item {
         float: left;
-        width: 25%;
+        width: 33.333333%;
         display: block;
         text-align: center;
-        height: 25%;
+        height: 33.3333333%;
     }
     .item-img{
         width: 50%;
@@ -179,5 +251,12 @@
     }
     .pg-article{
         padding-top: 20px;
+    }
+    .more{
+        color: #333;
+        font-size:xx-small;
+        float:right;
+        padding-right: 10px;
+        padding-top: 2px;
     }
 </style>

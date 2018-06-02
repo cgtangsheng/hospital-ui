@@ -79,7 +79,7 @@
                 var token = localStorage.getItem("token");
                 var healthid = localStorage.getItem("health_id")
                 if(!token || !healthid){
-                    window.location.href = "/#/user/login"
+                    window.location.href = "/user/login"
                     return
                 }
                 var request = me.$route.query;

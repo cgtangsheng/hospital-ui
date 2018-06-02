@@ -46,6 +46,11 @@ const nav = [
                 path: '/dm/check_save',
                 icon: '',
                 text: '公告配置'
+            },{
+                name: 'dm/tablist',
+                path: '/dm/tablist',
+                icon: '',
+                text: '公告配置'
             }
         ]
     },
@@ -96,8 +101,25 @@ const nav = [
             }
         ]
     },
-
-
-
+    {
+        name: 'article',
+        text: '平台公告',
+        icon: 'medkit',
+        path: 'article',
+        children: [
+            {
+                name: 'article/index',
+                path: '/article/index',
+                icon: '',
+                text: '公告配置'
+            },
+            {
+                name: 'article/list',
+                path: '/article/list',
+                icon: '',
+                text: '公告配置'
+            },
+        ]
+    }
 ]
 export default nav

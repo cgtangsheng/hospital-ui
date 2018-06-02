@@ -181,7 +181,7 @@
         margin-bottom: 10px;
     }
     .box-form{
-        margin-bottom: 30px;
+        /*margin-bottom: 30px;*/
     }
     .mint-cell-title-self{
         width: 105px;

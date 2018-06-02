@@ -15,20 +15,23 @@
 				</div>
 			</div>
 			<div class="row-right">
-				<div class="row-right-top">
-					<div class="row-right-top-item">
-						<div>
-							<a v-bind:href="dm_eat.url"><span><img class="item-img-self" :src="dm_eat.img" width="100%" height="100%" ></span>
-								<div class="href-item"><span>{{dm_eat.title}}</span></div></a>
+				<div class="two-split">
+					<div class="row-right-top">
+						<div class="row-right-top-item">
+							<div class="two-item">
+								<a v-bind:href="dm_eat.url"><span><img class="item-img-self" :src="dm_eat.img" width="100%" height="100%" ></span>
+									<div class="href-item"><span>{{dm_eat.title}}</span></div></a>
+							</div>
 						</div>
 					</div>
-
 				</div>
-				<div class="row-right-bottom">
-					<div class="row-right-bottom-item">
-						<div class="two-item">
-							<a v-bind:href="dm_bmi.url"><span><img class="item-img-self" :src="dm_bmi.img" width="100%" height="100%" ></span>
-								<div class="href-item"><span>{{dm_bmi.title}}</span></div></a>
+				<div class="two-split">
+					<div class="row-right-bottom">
+						<div class="row-right-bottom-item">
+							<div class="two-item">
+								<a v-bind:href="dm_bmi.url"><span><img class="item-img-self" :src="dm_bmi.img" width="100%" height="100%" ></span>
+									<div class="href-item"><span>{{dm_bmi.title}}</span></div></a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -68,24 +71,24 @@
                     },
 				],
                 dm_bmi:{
-                    url:"/#/user/bmi",
+                    url:"/user/bmi",
 					title:"BMI",
-					img:"http://zldzbl.cn/images/bmi.png",
+					img:global.imgUrl+"bmi.png",
 				},
                 dm_check:{
-                    url:"/#/dm/check",
+                    url:"/dm/check",
                     title:"糖尿病管理合格率评估",
-					img:"http://zldzbl.cn/images/diabetes_management.png",
+					img:global.imgUrl+"diabetes_management.png",
 				},
                 dm_eat:{
-                    url:"/#/dm/eat",
+                    url:"/dm/eat",
                     title:"生活方式",
-					img:"http://zldzbl.cn/images/life.png",
+					img:global.imgUrl+"life.png",
                 },
                 user_base:{
-                    url:"/#/user/base",
+                    url:"/user/base",
                     title:"基本信息",
-                    img:"http://zldzbl.cn/images/info.png",
+                    img:global.imgUrl+"info.png",
 				}
 			}
 		}
@@ -94,7 +97,7 @@
 
 <style type="less">
 	.row{
-		height: 150px;
+		height: 170px;
 		overflow: hidden;
 		width: 100%;
 	}
@@ -105,7 +108,8 @@
 		float: left;
 		background-color: magenta;
 		border-radius:5px;
-		margin:  5px 5px 5px;
+		margin-top:  5px;
+		margin-left: 5px;
 	}
 	.row-left-item{
 		width: 100%;
@@ -113,36 +117,36 @@
 		text-align: center;
 	}
 	.row-right{
-		width: 45%;
+		width: 50%;
 		float: left;
 		display: block;
-		height: 90%;
+		height: 100%;
+	}
+	.two-split{
+		width: 100%;
+		height: 50%;
 	}
 	.row-right-top{
-		padding-left: 20px;
-		width: 100%;
-		height: 47%;
 		margin-top: 5px;
+		margin-left:5px;
 		border-radius:5px;
 		background-color: #50BFFF;
+		display: block;
 
 	}
 	.row-right-bottom{
-		padding-left: 20px;
-		width: 100%;
-		height: 47%;
-		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-left:5px;
 		border-radius:5px;
 		background-color: #13ce66;
+		display: block;
+
 	}
 	.row-right-top-item{
 		font-weight:bolder;
 		color: white;
 		text-align: center;
 		vertical-align: middle;
-		background-color: #50BFFF;
-		width: 100%;
-		height: 100%;
 	}
 	.row-right-bottom-item{
 		background-color: #13ce66;
@@ -150,16 +154,18 @@
 		color: white;
 		text-align: center;
 		vertical-align: middle;
+		border-radius:5px;
 		height: 100%;
+		padding-top: 5px;
 	}
 	.item-center{
 		background-color: #dea726 ;
 		height: 120px;
 		border-radius:5px;
 		overflow: hidden;
-		width: 100%;
-		margin: 5px 5px 5px;
 		text-align: center;
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 	.left{
 		display: block;
@@ -175,8 +181,8 @@
 	.item-img-self{
 		width: 20%;
 	}
-	.two-item{
-		padding-top: 5px;
+	.one-item{
+		padding-top: 15px;
 	}
 	
 </style>

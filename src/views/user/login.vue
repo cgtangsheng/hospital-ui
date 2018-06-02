@@ -69,7 +69,6 @@
                                 iconClass: 'icon icon-success'
                             });
                         }
-                        console.log(data)
                         localStorage.setItem("token",data["token"])
                         localStorage.setItem("health_id",data["health_id"])
                         window.location.href = "/"

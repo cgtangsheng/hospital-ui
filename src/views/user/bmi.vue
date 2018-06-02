@@ -149,8 +149,9 @@
         margin-bottom: 30px;
     }
     .btn-area{
+        padding-top: 10px;
         overflow: hidden;
-        position:fixed;
+        /*position:fixed;*/
         bottom:0;
         width: 100%;
     }

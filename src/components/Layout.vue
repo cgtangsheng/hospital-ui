@@ -19,10 +19,19 @@
     </div>
     <div class="p-layout-bottom">
       <div class="p-layout-bottom-home">
-       <a v-bind:href="home.url"><span><img class="" :src="home.img"  max-width="100%" max-height="100%" ></span></a>
+        <div class="icon">
+            <a v-bind:href="home.url"><img class="" :src="home.img"  max-width="100%" max-height="100%" ></a>
+        </div>
+      </div>
+      <div class="p-layout-bottom-diagnosis">
+        <div class="icon">
+            <a v-bind:href="diagnosis.url"><img class="" :src="diagnosis.img" ></a>
+        </div>
       </div>
       <div class="p-layout-bottom-my">
-        <a v-bind:href="my.url"><span><img class="" :src="my.img" max-width="100%" max-height="100%"></span></a>
+        <div class="icon">
+          <a v-bind:href="my.url"><img class="" :src="my.img"></a>
+        </div>
       </div>
     </div>
   </div>
@@ -48,12 +57,16 @@
                 headImg: '',
                 isCollapse: false,
                 home:{
-                    img:"http://ui.zldzbl.cn/images/home.png",
-                    url:"/#/"
+                    img:global.imgUrl+"home.png",
+                    url:"/"
                 },
                 my:{
-                    img:"http://ui.zldzbl.cn/images/my.png",
-                    url:"/#/user/center"
+                    img:global.imgUrl+"my.png",
+                    url:"/user/center"
+                },
+                diagnosis:{
+                    img:global.imgUrl+"diagnosis.png",
+                    url:"/user/center"
                 }
             }
         },
@@ -157,30 +170,38 @@
       /*overflow: hidden;*/
       &-home{
         vertical-align: middle;
-        padding-left: 10%;
-        padding-top: 5px;
         display: block;
         float: left;
         height:100%;
-        img{
-          width: 100%;
-          height: 100%;
-        }
+        width: 33.33333333%;
+      }
+      &-diagnosis{
+        vertical-align: middle;
+        display: block;
+        float: left;
+        height:100%;
+        width: 33.33333333%;
       }
       &-my{
         vertical-align: middle;
-        padding-left: 10%;
-        padding-top: 5px;
         display: block;
-        float: right;
-        padding-right: 10%;
         height:100%;
-        img{
-          width: 100%;
-          height: 100%;
-        }
+        float: left;
+        width: 33.33333333%;
       }
     }
 
+  }
+  .icon{
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon img {
+    width:100%;
+    display:block;
   }
 </style>

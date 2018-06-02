@@ -25,31 +25,35 @@ import { Radio } from 'mint-ui';
 import { Switch } from 'mint-ui';
 import { PaletteButton } from 'mint-ui';
 import { Swipe, SwipeItem } from 'mint-ui';
+import { Navbar, TabItem } from 'mint-ui';
+
 
 
 Vue.use(MintUI)
 
-Vue.component(Header.name, Header);
-Vue.component(Cell.name, Cell);
-Vue.component(DatetimePicker.name, DatetimePicker);
-Vue.component(Button.name, Button);
-Vue.component(Popup.name, Popup);
-Vue.component(Picker.name, Picker);
-Vue.component(Toast.name, Toast);
-Vue.component(Radio.name, Radio);
-Vue.component(Switch.name, Switch);
-Vue.component(PaletteButton.name, PaletteButton);
-Vue.use(ElementUI);
+// Vue.component(Header.name, Header);
+// Vue.component(Cell.name, Cell);
+// Vue.component(DatetimePicker.name, DatetimePicker);
+// Vue.component(Button.name, Button);
+// Vue.component(Popup.name, Popup);
+// Vue.component(Picker.name, Picker);
+// Vue.component(Toast.name, Toast);
+// Vue.component(Radio.name, Radio);
+// Vue.component(Switch.name, Switch);
+// Vue.component(PaletteButton.name, PaletteButton);
+// Vue.use(ElementUI);
 Vue.use(VueRouter);
-Vue.use(TreeView);
-Vue.component(Swipe.name, Swipe);
-Vue.component(SwipeItem.name, SwipeItem);
+// Vue.use(TreeView);
+// Vue.component(Swipe.name, Swipe);
+// Vue.component(SwipeItem.name, SwipeItem);
 Vue.component(Layout.name, Layout)
+// Vue.component(Navbar.name, Navbar);
+// Vue.component(TabItem.name, TabItem);
 
 
 
 const router = new VueRouter({
-  mode: 'hash',
+  mode: 'history',
   base: __dirname,
   routes
 })

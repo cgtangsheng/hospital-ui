@@ -197,6 +197,7 @@
                     me.next.text ="提交"
                 }else{
                     me.isEnd = false
+                    me.next.text ="下一题"
                 }
                 if(me.click_pos <= 0){
                     me.isStart = true;
@@ -226,7 +227,7 @@
                 var token = localStorage.getItem("token");
                 var healthid = localStorage.getItem("health_id")
                 if(!token || !healthid){
-                    window.location.href = "/#/user/login"
+                    window.location.href = "/user/login"
                     return
                 }
                 var request = new Map();
