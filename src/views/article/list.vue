@@ -145,6 +145,13 @@
 
             }
         },
+        methods:{
+            articleDetail:function (item) {
+                var id = item.id
+                window.location.href = "/article/index?id="+id
+                return
+            },
+        }
     }
 </script>
 

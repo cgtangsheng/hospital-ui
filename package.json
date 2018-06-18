@@ -22,6 +22,7 @@
     "querystring": "^0.2.0",
     "sha1": "^1.1.1",
     "vue": "2.2.6",
+    "vue-file-upload": "^0.1.12",
     "vue-highcharts": "0.0.10",
     "vue-json-tree-view": "^2.0.7",
     "vue-router": "^2.8.1",

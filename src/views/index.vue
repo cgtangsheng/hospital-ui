@@ -47,6 +47,8 @@
                 </li>
             </div>
         </div>
+        <div class="spliteline-large">
+        </div>
     </div>
 
 </template>
@@ -73,7 +75,7 @@
                     },{
                         img:"http://zldzbl.cn/images/upload.png",
                         title:"化验单上传",
-                        url:"/dm/index"
+                        url:"/laboratory/index"
                     },{
                         img:"http://zldzbl.cn/images/knowlege.png",
                         title:"我的病历",

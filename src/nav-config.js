@@ -119,6 +119,31 @@ const nav = [
                 icon: '',
                 text: '公告配置'
             },
+            {
+                name: 'article/video',
+                path: '/article/video',
+                icon: '',
+                text: '公告配置'
+            },
+        ]
+    },{
+        name: 'laboratory',
+        text: '平台公告',
+        icon: 'medkit',
+        path: 'article',
+        children: [
+            {
+                name: 'laboratory/index',
+                path: '/laboratory/index',
+                icon: '',
+                text: '公告配置'
+            },
+            {
+                name: 'laboratory/upload',
+                path: '/laboratory/upload',
+                icon: '',
+                text: '公告配置'
+            },
         ]
     }
 ]
